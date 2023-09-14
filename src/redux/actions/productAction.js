@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = process.env.REACT_APP_API;
+const URL ="https://flipkart-backend-ba6k.onrender.com";
 
 export const fetchBackendData = () => {
   return async (dispatch) => {
