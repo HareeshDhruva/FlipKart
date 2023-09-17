@@ -59,7 +59,7 @@ function Search() {
       marginLeft: 20,
       display:'flex',
     }}>
-      <input className='pl-[20px] w-[100%] flex rounded-xl' placeholder='Search for Prodects, Brands and More' 
+      <input className='pl-[20px] w-[100%] flex rounded-xl rounded-md focus:outline-none focus:border-indigo-500' placeholder='Search for Prodects, Brands and More' 
       onChange={(e)=>{handleSearch(e)}}
       value={text}
       />  
